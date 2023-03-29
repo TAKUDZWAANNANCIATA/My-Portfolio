@@ -1,0 +1,258 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+
+table, tr, th, td{
+margin:0;
+padding:0;
+border:0;
+outline:0;
+
+}
+
+body {
+line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+display:block;
+}
+
+nav ul {
+list-style:none;
+}
+
+blockquote, q {
+quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+content:”;
+content:none;
+}
+
+a {
+margin:0;
+padding:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+background-color:#ff9;
+color:#000;
+text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+background-color:#ff9;
+color:#000;
+font-style:italic;
+font-weight:bold;
+}
+
+del {
+text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+border-bottom:1px dotted;
+cursor:help;
+}
+
+table {
+border-collapse:collapse;
+border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+display:block;
+height:1px;
+border:0;
+border-top:1px solid #cccccc;
+margin:1em 0;
+padding:0;
+}
+
+input, select {
+vertical-align:middle;
+}
+
+
+ @font-face {
+    font-family: 'Verdana.ttf';
+    src: url(Verdana.ttf);
+ }
+
+
+
+
+
+
+////////******  banner  ******//////// 
+
+.banner{background-image: url('./img/pexels-antoni-shkraba-4348401.jpg') ;background-blend-mode: darken;height:100vh;background-size: cover; background-position: center;background-repeat: no-repeat;background-color:rgba(0, 0, 0, 0.803);
+    h1{ color: white;  font-family: 'Verdana.ttf';}
+    .butt{
+    button{background:transparent; color: white; border-color: white;  padding: 12px 16% 12px 16%; border-radius:5px ; border-width: 2px;padding: 17px 15px 15px 17px;margin-left: 89%;margin-top: 100px;}}
+    .heading{ border: 7px solid white; width: 100vh;height: 60vh; text-align: center;align-items: center;margin-left: 300px; margin-top: 40px;}
+    h3{text-align: center;align-items: center;color: white;font-size: 25px;}
+    h1{padding-top: 100px; font-size: 50px;}
+     .line{  background-color: rgb(223, 254, 22) ;border: #ff9 3px solid; border-radius: 5px; margin: 4% 350px 4% 350px;} 
+    //  button{padding: 10px;border: rgb(255, 255, 255);border-width: 3px;background-color: none; margin: 4% 1% 4% 1%;}
+    //  .butt2{padding: 10px;border: rgb(255, 255, 255);border-width: 3px;background-color: none; margin: 4% 1% 4% 1%;6
+    button{background-color: transparent; border: 2px solid white; color: white; padding: 5px 2% 5px 2%; margin: 5% 1% 0 1%;}
+   
+        
+        
+    }
+
+    .nav{ align-items: center;text-align: center; text-decoration: none;margin-left:450px; font-family: 'Verdana.ttf'; 
+        a{color: rgb(255, 255, 255); text-decoration: none; font-family: 'Verdana.ttf'; font-size: 15px;position: relative;top:15px;}
+    
+        }
+        
+   
+        
+
+//end //
+
+
+////////******  About section  ******//////// 
+
+.about{text-align: start;padding-top:80px;padding-bottom:180px; background-color: #000;padding-top:110px; font-family: 'Verdana.ttf';
+    // .butt1{position: relative;border-color: rgb(223, 254, 22);width: 3px;background-color: transparent;width: 60%;height: 90%;left: 80%;bottom:90%;border-radius: 60%;fix}
+    // .butt2{position: relative;border: none;width: 20%;height: 19%;background-color: wh;}
+    // .butt3{position: relative;background-color: rgb(223, 254, 22);border:none;width: 20%;height: 19%;}
+    // .butt4{position: relative;background-color: rgb(223, 254, 22);border-color: rgb(223, 254, 22);width: 3px;background-color: transparent;width: 20%;height: 19%;}
+   
+   .circles{ position: relative;
+
+    .butt1{
+        width:300px; height: 300px;  border-radius: 50%; background-color: transparent; border-color: rgb(223, 254, 22); 
+        position: absolute;  top:1%; left:50%;}
+        .butt2{
+            width:60px; height: 60px;  border-radius: 50%;background-color: transparent; border-color: rgb(223, 254, 22);left: 15%;top: 8px;position: absolute;}
+             .butt3{
+                width:200px; height: 200px;  border-radius: 50%; background-color: rgb(223, 254, 22); position: absolute; left: 7%;border: none;top: 200px;} 
+                .butt4{
+                    width:110px; height: 110px;  border-radius: 50%; background-color: white; position: absolute; left:65%; top:270px;border: none;}
+                    
+    
+   }
+   
+    .innerAbout{display: flex; position: relative; font-family: 'Verdana.ttf';}
+    .img{border-radius: 800px; margin-left: 180px; position: absolute; top:0%; left:-15%;}
+     h1{padding-left: 210px;font-size: 33px;color: rgb(255, 255, 255);word-spacing: 4px;letter-spacing: 1px;}
+    h2{padding-left: 60px;font-size: 24px;color: rgb(223, 254, 22);padding-top: 60px;word-spacing: 4px;letter-spacing: 1px;}
+    p{padding-left: 60px;font-size: 18px;color: rgb(255, 255, 255);padding-top: 60px;line-height: 27px;word-spacing: 3px;}}
+
+    //end //
+
+
+
+
+    ////////******  what l do  ******//////// 
+    
+    .skills{padding-top:80px;
+        h2{text-align: center;align-items: center;padding: 50px 0 50px 0 ;font-size: 33px;}
+        h6{line-height: 40px;font-size: 20px;}
+        H5{line-height: 50px;font-size: 25px;}
+        .line{  background-color: rgb(223, 254, 22) ;border: #ff9 3px solid; border-radius: 5px; margin: 4% 250px 4% 0px;} 
+        .card{
+            height: 70vh;}
+        p{width: 340px;word-spacing: 3px;letter-spacing: 0.70px;}
+        .container{ margin-left: 200px;}
+        .card1{ box-shadow: 0 5px 20px rgb(36, 34, 34);margin-left: 120px; line-height: 33px;width: 46vh;}
+        .card2{box-shadow: 0 5px 20px rgb(36, 34, 34); margin-left: 60px;width: 46vh;}
+     
+        
+    }
+
+    //end //
+
+
+
+   ///////////********  My Portfolio **********/////////
+   .portfolio{text-align: center;color: white;padding-bottom:100px;padding-top:100px;
+         h3{color: black;margin-top:100px; font-size: 30px;}
+        .btn1{color: white;background-color: #000;padding: 60px 80px 50px 80px ;font-size: 20px;margin: 60px; border: none; }
+        .btn1:hover{ transition: al .5s;  background-image: url(./img/Screen\ Shot\ 2023-03-02\ at\ 14.56.00.png); opacity: 1;background-size: contain; opacity: 1;}
+        .btn2{color: white;background-color: #000;padding: 60px 80px 50px 80px ;font-size: 20px;margin: 60px; border: none;}
+        .btn2:hover{ transition: al .5s;  background-image: url(./img/Screen\ Shot\ 2023-03-02\ at\ 14.58.20.png);background-size: contain; opacity: 1;}  
+        .btn3{color: white;background-color: #000;padding: 60px 80px 50px 80px ;font-size: 20px;margin: 60px; border: none;}
+        .btn3:hover{ transition: al .5s;  background-image: url(./img/Screen\ Shot\ 2023-03-02\ at\ 14.57.19.png);background-size: contain; opacity: 1;}
+       img:hover{opacity: 0;}
+
+    }
+    
+   //////////*******  end   *******///////
+
+
+
+   /////////******   footer  *********//////// 
+      footer{
+        h3{font-size: 22.50px;margin-top: 50px;}
+        h2{font-size: 13.50px;margin-left: 210px;}
+        h4{font-size: 18px;margin-left: 350px;}
+        h5{font-size: 32px;margin-left: 350px;}
+        p{width: 320px;word-spacing: 3px;line-height: 33px;margin-left: 350px;}
+        .line{  background-color: rgb(207, 238, 5) ;border: #ff9 3px solid; border-radius: 5px; margin: 4% 300px 4% 350px;} 
+        background-color: black;padding-bottom: 10px;
+        color: white;
+        .texxt{
+            display: flex; flex-direction: column; align-items: center;
+            .hr{width: 15%;height: 2px;color: white;}
+            margin-bottom: 50px;margin-top: 100px;padding-bottom: 70px;
+        }
+
+        .hrr{margin-bottom: 50px;}
+   
+     .footer{display:flex; justify-content: space-around;  padding-bottom:150px; color: white;
+       
+       
+    
+    .form-control{  width: 50%;background-color: #444141c9;border: none;padding: 18px;margin-top: 10px;margin-left:100px;
+    
+     
+    
+    }
+    .button1{border: none;border-radius: 3px;background-color: #444141c9 ;padding: 18px;color: #c9c9c9;margin-left: 102px;}
+     .button1:hover {background-color: white;color: #000;} }
+  //end //
+
+
+
+///////// copyright///////
+   .texts{}
+ 
+////////   end   //////// 
+      }
+
+
+
+
+
+
+
